@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 h1{
     color: brown;
+}
+.hero{
+    background-image: url('../Images/Cow\ Beautiful.jpg');
+    background-size: cover;
+    background-position: bottom-center;
+    height: 100vh;
+    clip-path: polygon(50% 0%, 100% 17%, 82% 100%, 18% 100%, 0 22%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Patua One', serif;;
+}
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.article, #cow-type{
+    /* width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    border-width: 15px;
+    border-color: yellow;
+    background-color: aqua;
+    padding: 60px;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: solid green;
+    border-width: 10px;
+    padding-bottom: 30px;
+}
+.article p{
+    font-size: 15px;
+    line-height: 2em;
+}
+.article p .milk{
+    font-size: 30px;
+    background-color: blue;
+}
+#head-2{
+    text-align: center;
+}
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+.cow-images div{
+    width: 300px;
+    height: 300px;
+}
+.cow-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
